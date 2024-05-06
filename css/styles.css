@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../media/the-godfather-in-yonetmeni-konustu-seri-devam-edebilir_1607254873.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    position: relative;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    border-bottom-color: #fff;
+}
+
+.banner {
+    padding: 50px;
+    padding-top: 5%;
+}
+
+.banner .content {
+    width: 1000px;
+    margin: 0;
+    text-align: left;
+    color: aliceblue;
+}
+
+.banner h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    padding-left: 2%;
+}
+
+.banner p {
+    font-size: 24px;
+    width: 80%;
+}
+
+.additional-info {
+    color: #888;
+    margin-top: 20px;
+    display: flex;
+    width: 40%;
+}
+
+.additional-info p:first-child {
+    margin-right: auto;
+}
+
+.watch-movie-btn, .watch-trailer-btn {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #530808;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.watch-movie-btn:hover, .watch-trailer-btn:hover {
+    background-color: transparent;
+    border-color: aliceblue;
+}
+
+
+
+
+/* Modal CSS */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    padding-top: 50px; /* Location of the modal content */
+}
+
+.modal-content {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Adjust the width as needed */
+}
+
+.modal-content video {
+    display: block;
+    margin: 0 auto; /* Center the video horizontally */
+    max-width: 100%; /* Ensure the video doesn't exceed the modal's width */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

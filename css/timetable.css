@@ -1,0 +1,201 @@
+@font-face {
+    font-family:'Cairo';
+    src: url('../media/cairo_font/Cairo-VariableFont_slnt\,wght.ttf');
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    transition:all .3s linear;
+}
+body{
+    /* width: 100%;
+    height: 100vh; */
+    background: rgb(26, 25, 25);
+    /* background:url('../media/jjk_wallpaper.jpg')no-repeat center/cover; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: Cairo,Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+    /* border: 1px solid rgb(255, 255, 255) ; */
+    background:linear-gradient(360deg , rgba(0, 0, 0, 0) , #000000 );
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .logo img {
+    width: 200px;
+    padding-right: 30px;
+}
+nav .logo img:hover{
+    width: 250px;
+    opacity: .8;
+}
+nav .logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+nav .logo ul li{
+    padding: 3px 15px;
+}
+nav .logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    transition: .3s linear;
+}
+
+nav .logo  ul li a:hover{
+    color: 	#DC143C;
+    transition: .3s linear;
+}
+nav .logo  ul li a:hover i{
+    color: 	#DC143C;
+    transition: .3s linear;
+}
+nav .search_user{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .search_user input{
+    border-radius: 25px;
+    padding: 3px 15px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255,.3);
+    color: white;
+    margin: 10px;
+}
+nav .search_user input::placeholder{
+    color: white;
+}
+nav .search_user ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+nav .search_user ul li{
+    padding: 3px 10px;
+}
+nav .search_user ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    transition: .3s linear;
+}
+nav .search_user ul li a:hover{
+    color: #DC143C;
+}
+nav .search_user .search{
+    overflow: auto;
+    position: absolute;
+    width: 320px;
+    height: 190px;
+    /* border: 1px solid white; */
+    right: 0;
+    top: 55px;
+    z-index: 5;
+}
+nav .search_user .search::-webkit-scrollbar{
+    width: 5px;
+    background: rgb(255, 255, 255,.2);
+    visibility: hidden;
+
+}
+nav .search_user .search::-webkit-scrollbar-thumb{
+    width: 5px;
+    background: rgb(255, 255, 255,.5);
+    visibility: hidden;
+    
+}
+nav .search_user .search:hover::-webkit-scrollbar{
+    visibility: visible;
+}
+nav .search_user .search:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+nav .search_user .search .card{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 3px 0px;
+    text-decoration: none;
+    display: none;
+}
+nav .search_user .search .card::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    z-index: -1;
+}
+nav .search_user .search .card img{
+    width: 28px;
+    /* height: 0px; */
+    border-radius: 0;
+    margin-left: 8px;
+}
+nav .search_user .search .card .cont{
+    margin-left: 10px;
+    color: white;
+}
+nav .search_user .search .card .cont h3{
+    font-size: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 250px;
+}
+nav .search_user .search .card .cont p{
+    font-size: 10px;
+    color: rgb(255, 255, 255,.8);
+}
+header .content{
+    position: relative;
+    color: white;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    width: 100%;
+    background-color: #999;
+    color: #fff;
+    height: 100%;
+    font-size: 110%;
+    font-weight: 600;
+}
+thead td{
+    font-weight: 900;
+    font-size: 110%
+}

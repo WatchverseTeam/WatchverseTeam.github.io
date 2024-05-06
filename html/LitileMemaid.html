@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Tittle Mermaid</title>
+    <link rel="stylesheet" href="../css/LittleMemaid.css">
+ </head>
+<body>  
+
+ <div class="container">
+    <header>
+            
+        <nav class="navbar">
+            <div class="logo_home">
+                <a href="index.html" class="logo">
+                <img src="../media/logo.png" alt="logo"></a>
+                <ul>
+                <li><a href="index.html">Home <i class="fa-solid fa-house-user"></i> </a></li>
+                <li><a href="#Movies">Movies <i class="fa-solid fa-clapperboard"></i></a></li>
+                <li><a href="#TVShows">TVShows <i class="fa-solid fa-film"></i> </a></ul></li>
+            </div>
+            <div class="search_user">
+                <input type="text" placeholder=" search" id="search" >
+                <ul>
+                    <li><a href="#" class="login">login</a></li>
+                    <li><a href="#" class="login">singup</a></li>
+                    <!-- <li><a href="#" class="icon"><i class="fa-solid fa-user-astronaut"></i></a></li> -->
+                </ul>
+            <div class="search">
+                <a href="html/dbsb.html" class="card">
+                    <img src="media/dbsb.jpg" alt="">
+                    <div class="cont">
+                        <h3>dragon ball super broly</h3>
+                        <p>Anime,Family,Fantasy,Movie</p>
+                    </div>
+                </a>
+                <a href="html/invincible.html" class="card">
+                    <img src="media/invincibleposter.png" alt="">
+                    <div class="cont">
+                        <h3>invincble</h3>
+                        <p>Drama|TV Show</p>
+                    </div>
+                </a>
+                <a href="html/naruto.html" class="card">
+                    <img src="media/narutoPoster.jpg" alt="">
+                    <div class="cont">
+                        <h3>Naruto</h3>
+                        <p>Drama|Anime|TV Show</p>
+                    </div>
+                </a>
+                <a href="html/jjk.html" class="card">
+                    <img src="media/jjkposter.png" alt="">
+                    <div class="cont">
+                        <h3>Jujutsu Kaisen</h3>
+                        <p>Drama|Anime|TV Show</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <div class="content">
+         <img class="name" src="../media/the-little-mermaid-title.png" alt="">
+        <pre >A young mermaid makes a deal with a sea
+ witch to trade her beautiful voice for
+ human legs so she can discover
+ the world above water and impress a prince.
+
+</Pre>
+      <span class="frist">IMDb 7.2</span>
+      <span class="secound">2 h 20 min
+    </span>
+    <span class="third">2023</span>
+    <span class="t13">7+
+    </span>
+    <br>
+    <br>
+    <a  class="watch" href="#" onclick="show_pop()" >Watch</a>
+    <div id="pop" class="film">
+    <video src="../media/VID_20240505153324.mp4" muted autoplay controls ></video>
+    <img class="close" src="../media/close1351.jpg" alt="" onclick="hide_pop()">
+    </div>
+    <a href="#" class="tr" onclick="show_pop2()" >Trailer</a>
+    <div id="pop2" class="trailer">
+        <iframe muted width="560" height="315" src="https://www.youtube.com/embed/kpGo2_d3oYE?si=N6xxO8ySEsVWL6X9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <img class="close2" src="../media/close1351.jpg" alt="" onclick="hide_pop2()">
+    </div>
+ </div>
+ <script src="../js/LittleMemaid.js"></script>
+</body>
+</html>

@@ -1,0 +1,641 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+header {
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%),
+        0 1px 15px 0 rgb(0 0 0 / 8%),
+        0 5px 10px -1px rgb(0 0 0 / 11%);
+}
+
+nav {
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 2px 0;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    position: relative;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-bottom-color: #505050
+}
+
+ul.right {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    font-size: 180%;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+ul.left {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    font-size: 180%;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.clear {
+    clear: both;
+}
+
+img.logo {
+    height: 33px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.search {
+    border-radius: 10px;
+    background-color: rgb(69 69 69);
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+ul li :hover {
+    color: #590083;
+    transition: .5s linear;
+}
+
+.Login {
+    padding: 5px;
+}
+
+.Signup {
+    padding: 5px;
+    margin-right: -5px;
+}
+
+/* blabla */
+/* The sidebar menu */
+.sidenav {
+    height: 300px;
+    width: 160px;
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    right: 0;
+    background-color: #26064961;
+    overflow-x: hidden;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border: solid #663399 2px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: #b1b1b1;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #590083;
+    transition: .3s linear;
+
+}
+
+.sidenav a.head {
+    text-align: center;
+    background-color: #330a46;
+    text-transform: uppercase;
+}
+
+.sidenav a.head :hover {
+    color: #18151c;
+    transition: .3s linear;
+}
+
+/* first content */
+
+div.content {
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+}
+
+img.left {
+    position: absolute;
+    top: 45px;
+    width: 265px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%),
+        0 1px 15px 0 rgb(0 0 0 / 8%),
+        0 5px 10px -1px rgb(0 0 0 / 11%);
+}
+
+img.left:hover {
+    box-shadow: 0 0 11px 3px rebeccapurple;
+    transition: .3 linear;
+}
+
+
+
+div.right-2 {
+    position: absolute;
+    top: 54px;
+    left: 320px;
+    border-radius: 15px;
+    border: solid #505050 2px;
+    padding: 10px;
+    width: 65%;
+    height: 370px;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%),
+        0 1px 15px 0 rgb(0 0 0 / 8%),
+        0 5px 10px -1px rgb(0 0 0 / 11%);
+}
+
+h2.content {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-indent: 10px;
+    padding: 12px 10px;
+}
+
+p.content {
+    color: white;
+    width: 550px;
+    font-size: larger;
+    border-radius: 6px;
+    border: solid 2px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #505050;
+    padding: 6px 3px;
+    margin: -1px 15px;
+}
+
+span.content {
+    color: #663399;
+    font-weight: bolder;
+
+}
+
+p.scri {
+    color: white;
+    font-size: large;
+    padding: 10px 5px;
+    margin: 11px;
+
+}
+
+button.one {
+    position: absolute;
+    top: 190px;
+    left: 35px;
+    border-radius: 10px;
+    border: solid #663399;
+    padding: 5px;
+    width: 70px;
+    color: #fafafa;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+button.two {
+    position: absolute;
+    top: 190px;
+    left: 120px;
+    border-radius: 10px;
+    border: solid #663399;
+    padding: 5px;
+    width: 70px;
+    color: #fafafa;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+button.three {
+    position: absolute;
+    top: 190px;
+    left: 205px;
+    border-radius: 10px;
+    border: solid #663399;
+    padding: 5px;
+    width: 120px;
+    color: #fafafa;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+div.content button:hover {
+    background-color: #590083;
+    box-shadow: 0 0 11px 3px rebeccapurple;
+    transition: .3 linear;
+}
+
+/*  */
+table.left {
+    border-collapse: collapse;
+    width: 43%;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #7d01b7;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: white;
+}
+
+
+table.right {
+    border-collapse: collapse;
+    width: 43%;
+    position: absolute;
+    bottom: 30px;
+    left: 480px;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #7d01b7;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: white;
+}
+
+
+.fa-solid {
+    border-radius: 8px;
+    border: solid 2px #663399;
+    font-weight: 900;
+    color: rgb(136, 136, 136);
+    padding: 3px;
+    margin: 1px;
+    margin-right: 6px;
+}
+
+
+tr:hover {
+    background-color: rgb(66 33 99 /30%);
+    transition: .3s linear;
+}
+
+/* for pop */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #1b1b1bda;
+    padding-top: 7%;
+}
+
+.vidcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: static;
+}
+
+.vidcontainer video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 90%;
+    z-index: 10;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff0000;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*  */
+button.four {
+    position: absolute;
+    bottom: -70px;
+    left: 35%;
+    border-radius: 10px;
+    border: solid 5px #2b2732;
+    padding: 10px;
+    width: 230px;
+    color: #fafafa;
+    background-color: #3e205c;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+}
+
+.fa-play {
+    color: white;
+    padding: 3px 5px 3px 7px;
+    border-radius: 8px;
+    border: solid 2px white;
+}
+
+button.five {
+    position: absolute;
+    bottom: -70px;
+    left: 55%;
+    border-radius: 10px;
+    border: solid 5px #2b2732;
+    padding: 10px;
+    width: 290px;
+    color: #fafafa;
+    background-color: #3e205c;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+}
+
+.fa-download {
+    color: white;
+    padding: 3px 5px 3px 7px;
+    border-radius: 8px;
+    border: solid 2px white;
+}
+
+button.six {
+    padding: 0 0 0 5px;
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.fa-sun {
+    color: rgb(224, 221, 0);
+    padding: 3px 5px 3px 5px;
+    border-radius: 8px;
+    border: solid 2px rgb(224, 221, 0);
+}
+
+
+/*
+
+
+*/
+footer {
+    background-color: transparent;
+    height: 65px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    border-bottom-color: #505050;
+    box-shadow: 0 -4px 5px 0 rgb(0 0 0 / 14%),
+        0 -1px 15px 0 rgb(0 0 0 / 8%),
+        0 -5px 10px -1px rgb(0 0 0 / 11%);
+}
+
+div.left {
+    border-radius: 10px;
+    border: solid #8a73a1 2px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    box-shadow: 0 0 1px 1px #000000;
+    width: 99.5%;
+    height: 55px;
+    padding: 0px 20px;
+    margin: 4px;
+    text-align: center;
+    padding-top: 7px;
+    color: #8c43d4;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+div.left-2 {
+    width: 150px;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+div.links {
+    display: inline-block;
+}
+
+
+
+.fa-brands {
+    color: white;
+    padding: 3px 7px;
+}
+
+.fa-facebook {
+    color: #1b62e3;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-youtube {
+    color: #d33535;
+}
+
+.fa-whatsapp {
+    color: #03a503;
+}
+
+.fa-brands:hover {
+    opacity: 0.7;
+    color: white;
+    transition: .3s linear;
+}
+
+
+
+div.rights:hover {
+    opacity: 0.7;
+    color: #ffffff;
+    transition: .3s linear;
+}
+
+div.left-2:hover {
+    opacity: 0.7;
+    color: #ffffff;
+    transition: .3s linear;
+}
+
+
+.checked {
+    color: rgb(255, 204, 0);
+}
+
+/* In Dark Mode */
+
+.dark-mode {
+    background-color: #bbbbbb;
+
+    a {
+        color: black;
+    }
+
+    .search {
+        background-color: rgb(228 228 228);
+    }
+
+    .sidenav {
+        background-color: #26064961;
+    }
+
+    .sidenav a.head {
+        background-color: #740fa2;
+    }
+
+    .sidenav a.head:hover {
+        color: #dddddd;
+    }
+
+    .sidenav a:hover {
+        color: #dddddd;
+    }
+
+    h2 {
+        color: black;
+    }
+
+    p {
+        color: black;
+    }
+
+    button {
+        color: black;
+    }
+
+    .fa-sun {
+        color: black;
+        padding: 3px 5px 3px 5px;
+        border-radius: 8px;
+        border: solid 2px black;
+    }
+
+    .fa-download {
+        color: black;
+        padding: 3px 5px 3px 7px;
+        border-radius: 8px;
+        border: solid 2px transparent;
+    }
+
+    .fa-play {
+        color: black;
+        padding: 3px 5px 3px 7px;
+        border-radius: 8px;
+        border: solid 2px transparent;
+    }
+
+    td {
+        color: black;
+    }
+
+    .fa-solid {
+        color: black;
+    }
+
+    .fa-brands {
+        color: white;
+        padding: 3px 7px;
+    }
+
+    .fa-facebook {
+        color: #1b62e3;
+    }
+
+    .fa-twitter {
+        color: #55acee;
+    }
+
+    .fa-youtube {
+        color: #d33535;
+    }
+
+    .fa-whatsapp {
+        color: #03a503;
+    }
+
+    button.four {
+        background-color: #8c5bbf6e;
+    }
+
+    button.five {
+        background-color: #8c5bbf6e;
+    }
+
+    .fa-brands:hover {
+        color: #000000;
+    }
+
+    div.rights:hover {
+        color: #000000;
+    }
+
+    div.left-2:hover {
+        color: #000000;
+    }
+
+
+}

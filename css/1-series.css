@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../media/background.webp");
+    background-size: 1540px 980px;
+}
+
+
+nav {
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 2px 0;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%),
+        0 1px 15px 0 rgb(0 0 0 / 8%),
+        0 5px 10px -1px rgb(0 0 0 / 11%);
+}
+
+ul.right {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    font-size: 180%;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+ul.left {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    font-size: 180%;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.clear {
+    clear: both;
+}
+
+img.logo {
+    height: 33px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.search {
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+ul li :hover {
+    color: #590083;
+    transition: .5s linear;
+}
+
+.Login {
+    padding: 5px;
+}
+
+.Signup {
+    padding: 5px;
+    margin-right: -5px;
+}
+
+/* blabla */
+/* The sidebar menu */
+.sidenav {
+    height: 300px;
+    width: 160px;
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    right: 0;
+    background-color: #26064961;
+    overflow-x: hidden;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border: solid #663399 2px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: #b1b1b1;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #590083;
+    transition: .3s linear;
+
+}
+
+.sidenav a.head {
+    text-align: center;
+    background-color: #330a46;
+    text-transform: uppercase;
+}
+
+.sidenav a.head :hover {
+    color: #000000;
+    transition: .3s linear;
+}
+
+/* the end of static page */
+
+div.content {
+    padding: 20px;
+    width: 49%;
+    height: 600px;
+    background-color: transparent;
+    margin: 50px;
+    position: relative;
+}
+
+h2 {
+    font-size: 350%;
+    color: aliceblue;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+div.content h2:hover {
+    text-shadow: 3px 3px 3px #663399;
+    transition: .3s linear;
+}
+
+button.one {
+    position: absolute;
+    top: 210px;
+    left: 85px;
+    border-radius: 20px;
+    border: solid #663399;
+    padding: 5px;
+    width: 70px;
+    color: #fafafa;
+    background-color: transparent;
+}
+
+button.two {
+    position: absolute;
+    top: 210px;
+    left: 170px;
+    border-radius: 20px;
+    border: solid #663399;
+    padding: 5px;
+    width: 70px;
+    color: #fafafa;
+    background-color: transparent;
+}
+
+button.three {
+    position: absolute;
+    top: 210px;
+    left: 255px;
+    border-radius: 20px;
+    border: solid #663399;
+    padding: 5px;
+    width: 120px;
+    color: #fafafa;
+    background-color: transparent;
+}
+
+.story {
+
+    width: 405px;
+    height: 175px;
+    padding: 10Px;
+    color: aliceblue;
+    border-radius: 15px;
+    border: solid #663399 3px;
+    position: absolute;
+    top: 260px;
+    left: 62px;
+    font-size: x-large;
+    text-indent: 50px;
+    line-height: 150%;
+    letter-spacing: 2px;
+}
+
+.story:hover {
+    box-shadow: 3px 3px 11px 3px rebeccapurple;
+    transition: .3 linear;
+}
+
+
+div.content button:hover {
+    background-color: #590083;
+    transition: .3s linear;
+}
+
+
+div.info {
+    position: absolute;
+    top: 490px;
+    left: 65px;
+    background-color: rgba(255, 0, 0, 0);
+    width: 73%;
+}
+
+p.info {
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 170%;
+    padding: 2px;
+}
+
+span {
+    color: #ffffff;
+    letter-spacing: 0px;
+}
+
+
+span:hover {
+    color: #590083;
+    transition: .3s linear;
+}
+
+hr {
+    color: #663399;
+    width: 419px;
+    border: solid 1px;
+}
+
+p.clear {
+    clear: both;
+}
+
+/* the first of footer */
+footer {
+    background-color: rgb(66 0 99 / 30%);
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+div.follow {
+    width: 200px;
+    height: 57px;
+    padding-top: 7px;
+    border-radius: 10px;
+    border: solid #8a73a1 2px;
+    position: absolute;
+    left: 500px;
+    top: 2px;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+
+
+div.follow-2 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div.links {
+    margin-top: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.fa-brands {
+    color: white;
+    padding: 3px 7px;
+}
+
+div.rights {
+    border-radius: 10px;
+    border: solid #8a73a1 2px;
+    position: absolute;
+    left: 750px;
+    top: 2px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #000000;
+    width: 200px;
+    height: 57px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+.fa-star {
+    margin: -15px 0;
+    color: rgb(255, 204, 0);
+
+}
+
+.fa-facebook {
+    color: #1b62e3;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-youtube {
+    color: #d33535;
+}
+
+.fa-whatsapp {
+    color: #03a503;
+}
+
+.fa-brands:hover {
+    opacity: 0.7;
+    color: white;
+    transition: .3s linear;
+}
+
+div.rights:hover {
+    opacity: 0.7;
+    color: #c595f4;
+    transition: .3s linear;
+}
+
+div.follow:hover {
+    opacity: 0.7;
+    color: #c595f4;
+    transition: .3s linear;
+}
+
+.checked {
+    color: rgb(255, 204, 0);
+}
